@@ -125,7 +125,6 @@ def start_training(character):
         # который соответствует введённой команде.
         if cmd in commands:
             print(commands[cmd]())
-            return start_training(character)
     return 'Тренировка окончена.'
 
 
